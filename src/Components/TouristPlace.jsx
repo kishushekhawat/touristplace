@@ -12,7 +12,7 @@ function TouristPlace({ img, title, desc, price, whenToVisit }) {
 
                 <h1 className="font-bold text-neutral-900 mt-2">{title}</h1>
                 <p>{desc}</p>
-                <p className="font-semibold mt-2 text-gray-500 ">{whenToVisit}</p>
+                <p className="font-semibold mt-2 text-gray-500 "> Months to visit : {whenToVisit}</p>
 
 
 
